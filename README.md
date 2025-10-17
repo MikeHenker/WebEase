@@ -19,7 +19,7 @@ Webease makes web development simple and fun! Write `.ws` files using intuitive 
 
 ```bash
 # Clone this repository
-git clone <repository-url>
+git clone https://github.com/MikeHenker/WebEase
 cd webease
 
 # Install dependencies (already included)
@@ -47,6 +47,7 @@ Compile and launch:
 ```bash
 python webease.py hello.ws
 ```
+or if you want to use a gui use compile_gui.py
 
 Your browser will automatically open with your new website!
 
