@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webease Library Demo</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        body { background-color: #f5f7fa; }
+body { font-family: Poppins, sans-serif; font-size: 16px; }
+.hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); background-size: cover; background-position: center; color: white; padding: 100px 20px; text-align: center; } .hero h1 { font-size: 48px; margin-bottom: 20px; } .hero p { font-size: 20px; }
+.main-content { max-width: 1200px; padding: 20px; margin: 0 auto; }
+.features { display: flex; flex-wrap: wrap; }
+.stats { display: flex; flex-wrap: wrap; }
+.demo-footer { background: #333; color: white; padding: 30px 20px; margin-top: 50px; text-align: center; }
+.features { justify-content: center; gap: 20px; flex-wrap: wrap; }
+.stats { justify-content: center; gap: 30px; flex-wrap: wrap; max-width: 800px; margin: 0 auto; }
+    </style>
+</head>
+<body>
+    <div class="hero"><h1>Component Library Demo</h1><p>Reusable components with .wl files</p></div>
+<div class="main-content"></div>
+<h2>Custom Feature Cards</h2>
+<p>These cards are defined in the ui_components.wl library file:</p>
+<div class="features"></div>
+<div class="feature-card" style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; margin: 15px;">
+    <h3 style="color: #667eea; margin-bottom: 15px;">Easy to Use</h3>
+    <p style="color: #666;">Simple syntax anyone can learn</p>
+</div>
+<div class="feature-card" style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; margin: 15px;">
+    <h3 style="color: #667eea; margin-bottom: 15px;">Reusable</h3>
+    <p style="color: #666;">Create components once, use everywhere</p>
+</div>
+<div class="feature-card" style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; margin: 15px;">
+    <h3 style="color: #667eea; margin-bottom: 15px;">Powerful</h3>
+    <p style="color: #666;">Build complex websites with ease</p>
+</div>
+</div>
+<div style="height: 40px;"></div>
+<h2>Call-to-Action Button</h2>
+<button style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 15px 40px; border: none; border-radius: 30px; font-size: 18px; cursor: pointer; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    Get Started Now
+</button>
+<div style="height: 40px;"></div>
+<h2>Testimonials</h2>
+<div style="background: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #667eea; margin: 20px 0;">
+    <p style="font-style: italic; margin-bottom: 15px;">"Webease made building my first website so easy!"</p>
+    <p style="font-weight: bold; color: #667eea;">- Sarah J.</p>
+</div>
+<div style="background: #f8f9fa; padding: 25px; border-radius: 8px; border-left: 4px solid #667eea; margin: 20px 0;">
+    <p style="font-style: italic; margin-bottom: 15px;">"I love how simple and powerful Webease is."</p>
+    <p style="font-weight: bold; color: #667eea;">- Mike T.</p>
+</div>
+<div style="height: 40px;"></div>
+<h2>Statistics</h2>
+<div class="stats"></div>
+<div style="text-align: center; padding: 30px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; border-radius: 12px; margin: 10px;">
+    <h2 style="font-size: 48px; margin-bottom: 10px;">230+</h2>
+    <p style="font-size: 18px;">Functions</p>
+</div>
+<div style="text-align: center; padding: 30px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; border-radius: 12px; margin: 10px;">
+    <h2 style="font-size: 48px; margin-bottom: 10px;">100%</h2>
+    <p style="font-size: 18px;">Beginner Friendly</p>
+</div>
+<div style="text-align: center; padding: 30px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; border-radius: 12px; margin: 10px;">
+    <h2 style="font-size: 48px; margin-bottom: 10px;">0</h2>
+    <p style="font-size: 18px;">HTML Knowledge Needed</p>
+</div>
+</div>
+<footer class="demo-footer">Built with Webease & Custom Libraries</footer>
+    <script>
+        
+    </script>
+</body>
+</html>

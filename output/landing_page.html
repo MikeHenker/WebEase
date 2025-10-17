@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Launch - Coming Soon</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        body { background-color: #ffffff; }
+body { font-family: Poppins, sans-serif; font-size: 16px; }
+.navbar { background: #333; padding: 15px; display: flex; align-items: center; } .navbar a { color: white; text-decoration: none; padding: 0 15px; } .navbar a:hover { color: #ddd; } .navbar-brand { font-weight: bold; margin-right: auto; }
+.hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); background-size: cover; background-position: center; color: white; padding: 100px 20px; text-align: center; } .hero h1 { font-size: 48px; margin-bottom: 20px; } .hero p { font-size: 20px; }
+.content { max-width: 1200px; padding: 20px; margin: 0 auto; }
+.launch-countdown { display: flex; justify-content: center; gap: 30px; padding: 30px; } .launch-countdown-item { text-align: center; } .launch-countdown-number { font-size: 48px; font-weight: bold; color: #667eea; } .launch-countdown-label { font-size: 14px; color: #666; text-transform: uppercase; }
+.features-row { display: flex; flex-wrap: wrap; }
+.feature-box { background: white; border-radius: 8px; padding: 20px; margin: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.feature-box { background: white; border-radius: 8px; padding: 20px; margin: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.feature-box { background: white; border-radius: 8px; padding: 20px; margin: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.pricing-section { display: flex; flex-wrap: wrap; }
+.pricing-card { border: 1px solid #ddd; border-radius: 8px; padding: 30px; text-align: center; margin: 10px; } .pricing-card h3 { margin-bottom: 20px; } .pricing-card .price { font-size: 36px; font-weight: bold; margin: 20px 0; } .pricing-card ul { list-style: none; padding: 0; margin: 20px 0; } .pricing-card li { padding: 10px 0; border-bottom: 1px solid #f0f0f0; }
+.pricing-card { border: 1px solid #ddd; border-radius: 8px; padding: 30px; text-align: center; margin: 10px; } .pricing-card h3 { margin-bottom: 20px; } .pricing-card .price { font-size: 36px; font-weight: bold; margin: 20px 0; } .pricing-card ul { list-style: none; padding: 0; margin: 20px 0; } .pricing-card li { padding: 10px 0; border-bottom: 1px solid #f0f0f0; }
+.pricing-card { border: 1px solid #ddd; border-radius: 8px; padding: 30px; text-align: center; margin: 10px; } .pricing-card h3 { margin-bottom: 20px; } .pricing-card .price { font-size: 36px; font-weight: bold; margin: 20px 0; } .pricing-card ul { list-style: none; padding: 0; margin: 20px 0; } .pricing-card li { padding: 10px 0; border-bottom: 1px solid #f0f0f0; }
+.social-share { display: flex; gap: 10px; margin: 20px 0; } .social-share button { padding: 10px 20px; border: none; border-radius: 4px; color: white; cursor: pointer; font-size: 14px; } .social-share .twitter { background: #1DA1F2; } .social-share .facebook { background: #4267B2; } .social-share .linkedin { background: #0077B5; }
+.sticky-cta { position: fixed; bottom: 20px; right: 20px; z-index: 1000; padding: 15px 30px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; text-decoration: none; border-radius: 50px; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4); transition: transform 0.3s; } .sticky-cta:hover { transform: scale(1.05); }
+.page-footer { background: #333; color: white; padding: 30px 20px; margin-top: 50px; text-align: center; }
+.feature-box { animation: fadeIn 1s; } @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+.feature-box { transition: transform 0.3s; } .feature-box:hover { transform: translateY(-10px); }
+.launch-countdown { animation: pulse 1s infinite; } @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
+.features-row { gap: 30px; justify-content: center; flex-wrap: wrap; }
+.pricing-section { gap: 30px; justify-content: center; flex-wrap: wrap; }
+#waitlist-form { max-width: 400px; margin: 0 auto; text-align: center; }
+#waitlist-form input { width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <nav class="navbar"><span class="navbar-brand">LaunchApp</span><a href="#">[</a><a href="#">{</a><a href="#">"</a><a href="#">u</a><a href="#">r</a><a href="#">l</a><a href="#">"</a><a href="#">:</a><a href="#"> </a><a href="#">"</a><a href="#">#</a><a href="#">f</a><a href="#">e</a><a href="#">a</a><a href="#">t</a><a href="#">u</a><a href="#">r</a><a href="#">e</a><a href="#">s</a><a href="#">"</a><a href="#">,</a><a href="#"> </a><a href="#">"</a><a href="#">t</a><a href="#">e</a><a href="#">x</a><a href="#">t</a><a href="#">"</a><a href="#">:</a><a href="#"> </a><a href="#">"</a><a href="#">F</a><a href="#">e</a><a href="#">a</a><a href="#">t</a><a href="#">u</a><a href="#">r</a><a href="#">e</a><a href="#">s</a><a href="#">"</a><a href="#">}</a><a href="#">,</a><a href="#"> </a><a href="#">{</a><a href="#">"</a><a href="#">u</a><a href="#">r</a><a href="#">l</a><a href="#">"</a><a href="#">:</a><a href="#"> </a><a href="#">"</a><a href="#">#</a><a href="#">p</a><a href="#">r</a><a href="#">i</a><a href="#">c</a><a href="#">i</a><a href="#">n</a><a href="#">g</a><a href="#">"</a><a href="#">,</a><a href="#"> </a><a href="#">"</a><a href="#">t</a><a href="#">e</a><a href="#">x</a><a href="#">t</a><a href="#">"</a><a href="#">:</a><a href="#"> </a><a href="#">"</a><a href="#">P</a><a href="#">r</a><a href="#">i</a><a href="#">c</a><a href="#">i</a><a href="#">n</a><a href="#">g</a><a href="#">"</a><a href="#">}</a><a href="#">,</a><a href="#"> </a><a href="#">{</a><a href="#">"</a><a href="#">u</a><a href="#">r</a><a href="#">l</a><a href="#">"</a><a href="#">:</a><a href="#"> </a><a href="#">"</a><a href="#">#</a><a href="#">c</a><a href="#">o</a><a href="#">n</a><a href="#">t</a><a href="#">a</a><a href="#">c</a><a href="#">t</a><a href="#">"</a><a href="#">,</a><a href="#"> </a><a href="#">"</a><a href="#">t</a><a href="#">e</a><a href="#">x</a><a href="#">t</a><a href="#">"</a><a href="#">:</a><a href="#"> </a><a href="#">"</a><a href="#">C</a><a href="#">o</a><a href="#">n</a><a href="#">t</a><a href="#">a</a><a href="#">c</a><a href="#">t</a><a href="#">"</a><a href="#">}</a><a href="#">]</a><a href="#">,</a><a href="#"> </a><a href="#">"</a><a href="#">t</a><a href="#">o</a><a href="#">p</a><a href="#">-</a><a href="#">n</a><a href="#">a</a><a href="#">v</a><a href="#">"</a></nav>
+<div class="hero"><h1>Revolutionary Product Launch</h1><p>Something amazing is coming December 31, 2025</p></div>
+<div class="content"></div>
+<h2>Countdown to Launch</h2>
+<div class="launch-countdown"><div class="launch-countdown-item"><div class="launch-countdown-number" id="days">0</div><div class="launch-countdown-label">Days</div></div><div class="launch-countdown-item"><div class="launch-countdown-number" id="hours">0</div><div class="launch-countdown-label">Hours</div></div><div class="launch-countdown-item"><div class="launch-countdown-number" id="minutes">0</div><div class="launch-countdown-label">Minutes</div></div><div class="launch-countdown-item"><div class="launch-countdown-number" id="seconds">0</div><div class="launch-countdown-label">Seconds</div></div></div>
+<div style="height: 60px;"></div>
+<h2>What We're Building</h2>
+<div class="features-row"></div>
+<div class="feature-box"><h3>Fast</h3>Lightning-fast performance that scales</div>
+<div class="feature-box"><h3>Secure</h3>Bank-level security for your data</div>
+<div class="feature-box"><h3>Simple</h3>Intuitive design anyone can use</div>
+</div>
+<div style="height: 60px;"></div>
+<h2>Early Bird Pricing</h2>
+<div class="pricing-section"></div>
+<div class="pricing-card"><h3>Starter</h3><div class="price">$9/mo</div><ul><li>5 Projects</li><li>10 GB Storage</li><li>Email Support</li></ul><button>Reserve Now</button></div>
+<div class="pricing-card"><h3>Professional</h3><div class="price">$29/mo</div><ul><li>Unlimited Projects</li><li>100 GB Storage</li><li>Priority Support</li><li>Advanced Analytics</li></ul><button>Reserve Now</button></div>
+<div class="pricing-card"><h3>Enterprise</h3><div class="price">$99/mo</div><ul><li>Everything in Pro</li><li>Unlimited Storage</li><li>24/7 Support</li><li>Custom Solutions</li></ul><button>Contact Sales</button></div>
+</div>
+<div style="height: 60px;"></div>
+<h2>Join the Waitlist</h2>
+<form action="" method="post" id="waitlist-form">
+<input type="text" name="email" placeholder="Enter your email" value="">
+<br>
+<button type="submit">Join Waitlist</button>
+</form>
+<div style="height: 40px;"></div>
+<div class="social-share"><button class="twitter" onclick="window.open('https://twitter.com/intent/tweet?url='+encodeURIComponent(window.location.href)+'&text='+encodeURIComponent(document.title), '_blank')">Share on Twitter</button><button class="facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(window.location.href), '_blank')">Share on Facebook</button><button class="linkedin" onclick="window.open('https://www.linkedin.com/sharing/share-offsite/?url='+encodeURIComponent(window.location.href), '_blank')">Share on LinkedIn</button></div>
+<a href="#waitlist-form" class="sticky-cta">Reserve Your Spot</a>
+<footer class="page-footer">© 2024 LaunchApp. Built with Webease.</footer>
+    <script>
+        
+    const targetDate = new Date('2025-12-31 00:00:00').getTime();
+    function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = targetDate - now;
+        
+        if (distance < 0) {
+            document.getElementById('days').innerHTML = '0';
+            document.getElementById('hours').innerHTML = '0';
+            document.getElementById('minutes').innerHTML = '0';
+            document.getElementById('seconds').innerHTML = '0';
+            return;
+        }
+        
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+        document.getElementById('days').innerHTML = days;
+        document.getElementById('hours').innerHTML = hours;
+        document.getElementById('minutes').innerHTML = minutes;
+        document.getElementById('seconds').innerHTML = seconds;
+    }
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+    
+    </script>
+</body>
+</html>
